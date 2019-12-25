@@ -190,7 +190,8 @@ h2{
 
 .third_section{
 	height: 600px;	
-	background-color:gray;
+	background: #f9f9f9 no-repeat center top;
+	
 
 
 }	
@@ -199,6 +200,7 @@ h2{
 	width: 420px;
 	padding: 20px;
 	height: 270px;
+	float: left;
 }
 .starts_here{
 	color: purple;
@@ -207,8 +209,45 @@ h2{
 	text-transform: uppercase;
 }
 .updates{
-	background-color: black;
+	background: #f9f9f9 no-repeat center top;
 	width: 420px;
 	height: 270px;
+	padding: 20px;
+	float: right;
+	margin-left: 100px;
 		
+}
+.nunc_turpis{
+	font-weight: bold;
+}
+.container_one{
+	line-height: 12px;
+}
+.container_second{
+	line-height: 12px;
+}
+.container_third{
+	line-height: 12px;
+}
+.read_morehere{
+	float: right;
+	color: black;
+	
+	text-transform: uppercase;
+	font-size: large;
+	font-weight: bold;
+
+}
+.read_morehere:hover{
+	color: black;
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+	text-decoration: none;
+
+}
+.both_containers{
+	display: flex;
+	flex-direction: row;
+	padding-top: 100px;
+	padding-left: 30px;
+	
 }
